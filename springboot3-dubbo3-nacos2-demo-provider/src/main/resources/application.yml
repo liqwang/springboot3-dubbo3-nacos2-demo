@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: provider-service
-
 dubbo:
   application:
     name: provider-service
