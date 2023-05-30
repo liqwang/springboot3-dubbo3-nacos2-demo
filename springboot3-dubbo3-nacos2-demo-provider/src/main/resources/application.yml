@@ -10,5 +10,5 @@ dubbo:
     name: tri
   registry:
     address: nacos://localhost:8848
-  provider:
+  provider: #https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/advanced-features-and-usage/security/token-authorization
     token: true
