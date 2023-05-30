@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: consumer-service
+    qos-enable: false
+  protocol:
+    name: tri
+  registry:
+    address: nacos://localhost:8848

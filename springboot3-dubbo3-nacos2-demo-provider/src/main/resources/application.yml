@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: provider-service
+
+dubbo:
+  application:
+    name: provider-service
+    metadata-type: remote
+  protocol:
+    name: tri
+  registry:
+    address: nacos://localhost:8848
+  provider:
+    token: true
