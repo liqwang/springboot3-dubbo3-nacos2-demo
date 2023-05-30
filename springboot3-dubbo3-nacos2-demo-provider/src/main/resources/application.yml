@@ -1,7 +1,6 @@
 dubbo:
   application:
     name: provider-service
-    metadata-type: remote
   protocol:
     name: tri
   registry:
